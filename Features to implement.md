@@ -1,0 +1,41 @@
+- #### Chatroom
+- #### Chatbot
+- #### Games 
+- #### Google calendar integration
+- #### Firebase authentication and authorization
+
+## Features to be done 
+- [x] Firebase authentication
+- [x] RESTAPIs refactoring
+- [x] add additional data when a face is scanned through face recognition 
+- [x] break the files into smaller components 
+- [x] profile picture
+- [x] functions to handle reminders for patients through caregivers 
+- [x] face recognition pickle files for individual families 
+- [x] different pages based on roles
+- [ ] save profile picture somewhere 
+- [x] change userdata to globalcontext
+- [x] convert all icons to constants
+- [x] make reusable components (Eg:buttons)
+- [x] add animations 
+- [x] save all userdata locally 
+- [x] adjust face recognition according to the backend
+- [x] add icons in place of buttons wherever possible
+- [x] change face recognition backend to handle the use case where a no face face is found
+- [x] put the face and object functions in cameraService
+- [x] change saving of location as home location as a object and current location
+- [ ] add haptic feedback to buttons
+- [x] add current location or patients in the database
+- [x] change login and register api URLs in frontend to sign-in and sign-up
+- [x] adapt the reminders URL name changes on frontend
+- [x] separated the reminder api calls in reminderService.jsx
+- [ ] add marker pointer for safe location along with current location 
+- [x] create family hierarchy 
+- [x] change the handlelogin function to switch based on role (first refetch usr data compare the role and redirect accordingly) {used redirect directly in stack screen to hide tabs}
+- [x] complete the reminders handling from caregivers side 
+- [x] complete the maps on caregiver side
+- [ ] make the profile section better along with image
+- [ ] create frontend ui to save profile image for the face recognition
+- [x] alert for out of safe location (try using the push notification)
+- [x] solve the date and time issue
+- [ ] ui for custom notifications
