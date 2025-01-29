@@ -1,3 +1,4 @@
+
 - #### Chatroom
 - #### Chatbot
 - #### Games 
@@ -13,7 +14,7 @@
 - [x] functions to handle reminders for patients through caregivers 
 - [x] face recognition pickle files for individual families 
 - [x] different pages based on roles
-- [ ] save profile picture somewhere 
+- [x] save profile picture somewhere 
 - [x] change userdata to globalcontext
 - [x] convert all icons to constants
 - [x] make reusable components (Eg:buttons)
@@ -29,13 +30,18 @@
 - [x] change login and register api URLs in frontend to sign-in and sign-up
 - [x] adapt the reminders URL name changes on frontend
 - [x] separated the reminder api calls in reminderService.jsx
-- [ ] add marker pointer for safe location along with current location 
+- [x] add marker pointer for safe location along with current location 
 - [x] create family hierarchy 
 - [x] change the handlelogin function to switch based on role (first refetch usr data compare the role and redirect accordingly) {used redirect directly in stack screen to hide tabs}
 - [x] complete the reminders handling from caregivers side 
 - [x] complete the maps on caregiver side
-- [ ] make the profile section better along with image
-- [ ] create frontend ui to save profile image for the face recognition
+- [x] make the profile section better along with image
+- [x] create frontend ui to save profile image for the face recognition
 - [x] alert for out of safe location (try using the push notification)
 - [x] solve the date and time issue
-- [ ] ui for custom notifications
+- [x] ui for custom notifications
+- [x] ui for creating family id
+- [x] ui for adding patient and members in family
+- [x] improve the layout of settings page
+- [x] change CGID and PATID to global context
+- [x] create about us page
